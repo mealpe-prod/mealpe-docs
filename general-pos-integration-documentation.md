@@ -19,7 +19,8 @@ graph TD
 
 ---
 
-## 3.  
+## 3. Authentication
+- All API requests between MealPe and POS systems must include an access token for authentication.
 - The access token must be included in the HTTP header:
   - `Authorization: Bearer <access_token>`
 - Access tokens are securely issued to each integration partner (POS or outlet) by MealPe during onboarding.
